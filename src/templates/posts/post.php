@@ -16,7 +16,6 @@ $pagination_pattern = [
 			"user" => true, 
 			"mediae" => true,
 			"readstate" => true,
-			"comments" => true
 		]
 	],
 	"sindex" => $sindex,

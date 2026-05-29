@@ -1,5 +1,5 @@
 {
-	"version": "0.1.5",
+	"version": "0.1.5.1",
 	"files": [
 		{
 			"type": "class",
@@ -47,7 +47,7 @@
 			"type": "settings-template",
 			"src": "templates/settings/index.php",
 			"dest": "templates/janitor/modules/item/post/index.php",
-			"digest": "sha256:bf7c15d62a1daf6d0b2556b342e47603068fda98b9ff36bd80b1c57db6662545"
+			"digest": "sha256:883977762360cf262084848b1a720cf41351501e2d9c7d2828c46deae66a0783"
 		},
 		{
 			"type": "controller",
@@ -59,7 +59,7 @@
 			"type": "template",
 			"src": "templates/posts/post.php",
 			"dest": "templates/posts/post.php",
-			"digest": "sha256:87a5576f21eb3c89bdd709140b0d6ddc2aa0b473ecd2eb04c880ef0974eaf1ce"
+			"digest": "sha256:1d9e9f0c25b3b694a3427145854afb2a9dd5d0407c8f51634f8a0f5ba6c7e880"
 		},
 		{
 			"type": "template",

@@ -28,12 +28,12 @@ $controllers = module()->getItemControllers($module_id);
 			Controllers are used to access post items and create meaningful urls on your website.
 		</p>
 		<p>
-			Your post items can be accessed via any of your page item controllers by adding the post item sindex to the 
+			Your post items can be accessed via any of your post item controllers by adding the post item sindex to the 
 			controller path, like this: .
 		</p>
 		<code><?= SITE_URL ?>/posts/post-item-sindex</code>
 
-		<h3>Existing page item controllers</h3>
+		<h3>Existing post item controllers</h3>
 		<ul class="controllers" 
 			data-csrf-token="<?= session()->value("csrf") ?>"
 			data-delete-action="<?= security()->validPath(HTML()->path."/modules/deleteController/item/post") ?>"
