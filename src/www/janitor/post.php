@@ -39,7 +39,7 @@ $model = $IC->typeObject($itemtype);
 
 
 $page->bodyClass($itemtype);
-$page->pageTitle("Pages");
+$page->pageTitle("Posts");
 
 
 if(is_array($action) && count($action)) {

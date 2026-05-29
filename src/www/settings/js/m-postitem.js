@@ -1,6 +1,5 @@
-Util.Modules["pageitem"] = new function() {
+Util.Modules["postitem"] = new function() {
 	this.init = function(div) {
-
 
 
 		// Add new controller

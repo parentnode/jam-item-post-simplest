@@ -4,7 +4,7 @@
 * This file contains itemtype functionality
 */
 
-class TypePage extends Itemtype {
+class TypePost extends Itemtype {
 
 
 	public $db;
@@ -77,16 +77,6 @@ class TypePage extends Itemtype {
 			"max" => 1,
 			"allowed_formats" => "png,jpg",
 			"hint_message" => "Add single image by dragging it here. PNG or JPG allowed in 960x540.",
-			"error_message" => "Media does not fit requirements."
-		));
-
-		// Mediae
-		$this->addToModel("mediae", array(
-			"type" => "files",
-			"label" => "Add media here",
-			"max" => 20,
-			"allowed_formats" => "png,jpg,mp4",
-			"hint_message" => "Add images or videos here. Use png, jpg or mp4.",
 			"error_message" => "Media does not fit requirements."
 		));
 
