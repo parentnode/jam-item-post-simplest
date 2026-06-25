@@ -1,4 +1,4 @@
-Util.Modules["postitem"] = new function() {
+Util.Modules["itemPost"] = new function() {
 	this.init = function(div) {
 
 

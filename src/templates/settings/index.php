@@ -6,7 +6,7 @@ $module = module()->getModule($module_group_id, $module_id);
 $controllers = module()->getItemControllers($module_id);
 
 ?>
-<div class="scene module i:module postitem i:postitem">
+<div class="scene module i:module item-post i:itemPost">
 	<h1>Itemtype post</h1>
 	<h2>Configuration</h2>
 

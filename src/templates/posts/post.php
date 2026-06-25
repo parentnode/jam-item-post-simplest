@@ -3,7 +3,6 @@ global $action;
 global $itemtype;
 
 
-$IC = new Items();
 $sindex = $action[0];
 
 
@@ -24,7 +23,7 @@ $pagination_pattern = [
 
 
 // Get posts
-$pagination_items = $IC->paginate($pagination_pattern);
+$pagination_items = items()->paginate($pagination_pattern);
 
 
 if($pagination_items && $pagination_items["range_items"]) {
@@ -59,7 +58,7 @@ $related_pattern["extend"] = [
 ];
 
 // get related items
-$related_items = $IC->getRelatedItems($related_pattern);
+$related_items = items()->getRelatedItems($related_pattern);
 
 
 ?>
@@ -67,7 +66,7 @@ $related_items = $IC->getRelatedItems($related_pattern);
 <div class="scene post i:postitem">
 
 <? if($item):
-	$media = $IC->sliceMediae($item, "mediae"); ?>
+	$media = items()->sliceMediae($item, "mediae"); ?>
 
 	<div class="article i:article id:<?= $item["item_id"] ?><?= $item["classname"] ? " ".$item["classname"] : "" ?>" itemscope itemtype="http://schema.org/NewsArticle"<?= HTML()->jsData(["readstate"]) ?>>
 

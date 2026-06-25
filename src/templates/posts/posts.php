@@ -3,7 +3,6 @@ global $action;
 global $itemtype;
 
 
-$IC = new Items();
 
 // List extension (page > 1)
 if(count($action) === 2) {
@@ -13,14 +12,13 @@ if(count($action) === 2) {
 // Default list
 else {
 	$page = false;
-	$page_item = $IC->getItem([
+	$page_item = items()->getItem([
 		"itemtype" => "page",
 		"tags" => "page:Posts", 
 		"status" => 1, 
 		"extend" => [
 			"user" => true, 
 			"mediae" => true, 
-			"tags" => true
 		]
 	]);
 }
@@ -46,14 +44,14 @@ $pagination_pattern = [
 ];
 
 // Get posts
-$items = $IC->paginate($pagination_pattern);
+$items = items()->paginate($pagination_pattern);
 
 ?>
 
 <div class="scene posts i:postitems">
 
 <? if($page_item): 
-	$media = $IC->sliceMediae($page_item, "single_media"); ?>
+	$media = items()->sliceMediae($page_item, "single_media"); ?>
 	<div class="article i:article" itemscope itemtype="http://schema.org/Article">
 
 		<?= HTML()->renderSnippet("snippets/media.php", [
@@ -112,7 +110,7 @@ $items = $IC->paginate($pagination_pattern);
 
 		<ul class="articles articlePreviewList i:articlePreviewList">
 <?			foreach($items["range_items"] as $item):
-				$media = $IC->sliceMediae($item, "mediae"); ?>
+				$media = items()->sliceMediae($item, "mediae"); ?>
 			<li class="item article id:<?= $item["item_id"] ?>" itemscope itemtype="http://schema.org/NewsArticle"<?= HTML()->jsData(["readstate"]) ?>>
 
 				<?= HTML()->renderSnippet("snippets/media.php", [
