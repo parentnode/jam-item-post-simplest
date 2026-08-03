@@ -86,17 +86,17 @@
 		},
 		{
 			"type": "data-install",
-			"src": "config/db/navigation_nodes.sql",
+			"src": "config/db/data/navigation_nodes.sql",
 			"digest": "sha256:6fe2457baad9166767af5c12edab4112182f84d54d3f1760ed3994f615529427"
 		},
 		{
 			"type": "data-uninstall",
-			"src": "config/db/navigation_nodes_uninstall.sql",
+			"src": "config/db/data/navigation_nodes_uninstall.sql",
 			"digest": "sha256:59d3e9ea8ce74aac3fe7112243b83bff980595f84854133f40f7a762fdef3aed"
 		},
 		{
 			"type": "data-uninstall-all",
-			"src": "config/db/item_post_data_uninstall.sql",
+			"src": "config/db/data/item_post_data_uninstall.sql",
 			"digest": "sha256:a4946517ae42727ce60b1996c82bd04286cd8fa001181c31aee2abc84f0f101d"
 		},
 		{
