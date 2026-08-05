@@ -11,73 +11,73 @@
 			"type": "backend-controller",
 			"src": "www/janitor/post.php",
 			"dest": "www/janitor/post.php",
-			"digest": "sha256:1e4049c2aff4990d4ce595a297f5408f6732ec25740f933e9b0cefebf6c52854"
+			"digest": "sha256:a36d870b6c8bdd7584accaf54f931a0ddc224c8d7a0b3f73e31bbc20c5d25003"
 		},
 		{
 			"type": "backend-template",
 			"src": "templates/janitor/post/list.php",
 			"dest": "templates/janitor/post/list.php",
-			"digest": "sha256:5f86e27c991d27e06a7bdc59cc1b93fa64cdf353fe55a1c5b4f5ce7275d55542"
+			"digest": "sha256:fb87e06d9fe697089f33a2e7b4426e6bb24bb1ad64e66e3b1562f0c5a6ffb89f"
 		},
 		{
 			"type": "backend-template",
 			"src": "templates/janitor/post/edit.php",
 			"dest": "templates/janitor/post/edit.php",
-			"digest": "sha256:94c729e31dcb87b8f9274e7cd7ff5887130c1ceda627f3e0a6e084140b75f1ca"
+			"digest": "sha256:2fc0fd7fb9339289d32064713f61486618e4e482042df4edd4a7a5b715d1bd41"
 		},
 		{
 			"type": "backend-template",
 			"src": "templates/janitor/post/new.php",
 			"dest": "templates/janitor/post/new.php",
-			"digest": "sha256:faa5a2efb8e057be3356d1e4903853c073a93c1a0e3b0b1903e2cf4c1dccb26c"
+			"digest": "sha256:4c487a7e9e0f5456f94bcae8156ddd102435b47c2d0bf2787567e8e0cb22b57c"
 		},
 		{
 			"type": "settings-css",
 			"src": "www/settings/css/s-item-post.css",
 			"dest": "www/janitor/css/setup/modules/s-item-post.css",
-			"digest": "sha256:325217b5680d7f8eb3142f52dab8d9490204ba6676c4e9b1c4ca408e4eaf96cd"
+			"digest": "sha256:1cd7689a90f967c472d70f95907241dd9f21b205e9eec622a27ebeb27b69d753"
 		},
 		{
 			"type": "settings-js",
 			"src": "www/settings/js/m-item-post.js",
 			"dest": "www/janitor/js/setup/modules/m-item-post.js",
-			"digest": "sha256:6aa8da2906c3374f7b31169dfd4e7c7d8f48c3a02a996ff0ef944e7876113fad"
+			"digest": "sha256:c56fd80a17e62e945a1b3f9a1413bcd901d8bab1b1ac2b850b4ac394d47f6f0e"
 		},
 		{
 			"type": "settings-template",
 			"src": "templates/settings/index.php",
 			"dest": "templates/janitor/modules/item/post/index.php",
-			"digest": "sha256:883977762360cf262084848b1a720cf41351501e2d9c7d2828c46deae66a0783"
+			"digest": "sha256:4bfcdb0ed837cd822694ed3ccf4b5e44852369e1a6c0ba8476856c4c3a6278b6"
 		},
 		{
 			"type": "controller",
 			"src": "www/posts.php",
 			"dest": "www/posts.php",
-			"digest": "sha256:e13001fdd138521503d54f9f4dc5a6c5afbd69da6d777b5096b157950c6a4d09"
+			"digest": "sha256:00672750189863809c81fee26b2490be5aa9eab361d0f7d35be80091a4f30f2d"
 		},
 		{
 			"type": "template",
 			"src": "templates/posts/post.php",
 			"dest": "templates/posts/post.php",
-			"digest": "sha256:1d9e9f0c25b3b694a3427145854afb2a9dd5d0407c8f51634f8a0f5ba6c7e880"
+			"digest": "sha256:6bffb7aaa22ffb6ecc064b7351558f7d4bac6ac5709e44ba4e7af4ce72a36f24"
 		},
 		{
 			"type": "template",
 			"src": "templates/posts/posts.php",
 			"dest": "templates/posts/posts.php",
-			"digest": "sha256:f869ee3022a0f1c75f572e54a0170ce58b569402c9eaf3ab82ad091abf119d2f"
+			"digest": "sha256:3682792d5602a8feacf2a3bd5b8cdcd1a01b293c4d07bab727928acc00c62c57"
 		},
 		{
 			"type": "template",
 			"src": "templates/posts/posts_tag.php",
 			"dest": "templates/posts/posts_tag.php",
-			"digest": "sha256:5d3abc23a088639f37102c865f3245d7b68cbfdea38207a09235cb30a451797b"
+			"digest": "sha256:0da6f409a0dbd0085fdb5010a21b827ec907c4ac9482f641b6337b600cec0beb"
 		},
 		{
 			"type": "template",
 			"src": "templates/posts/post_tag.php",
 			"dest": "templates/posts/post_tag.php",
-			"digest": "sha256:b5185b6849c6061fe8c7f800aea89a355576824cb16a75b40d0807db73739a83"
+			"digest": "sha256:a348733712d7de4ac7b75c4b90740145d590af5594b66e6268bab492f9648d95"
 		},
 		{
 			"type": "data-model",
