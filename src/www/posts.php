@@ -63,7 +63,4 @@ $page->page(array(
 	"templates" => "posts/posts.php"
 ));
 exit();
-
-
-?>
  
