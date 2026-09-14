@@ -23,7 +23,7 @@
 			"type": "backend-template",
 			"src": "templates/janitor/post/edit.php",
 			"dest": "templates/janitor/post/edit.php",
-			"digest": "sha256:2fc0fd7fb9339289d32064713f61486618e4e482042df4edd4a7a5b715d1bd41"
+			"digest": "sha256:68166c282ee6776a1076154797c5fa2a90ac322bd1d6ae0c3e00c3d579ace28e"
 		},
 		{
 			"type": "backend-template",
