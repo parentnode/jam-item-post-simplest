@@ -17,7 +17,7 @@
 			"type": "backend-template",
 			"src": "templates/janitor/post/list.php",
 			"dest": "templates/janitor/post/list.php",
-			"digest": "sha256:fb87e06d9fe697089f33a2e7b4426e6bb24bb1ad64e66e3b1562f0c5a6ffb89f"
+			"digest": "sha256:9537a4259e9847207a9ca2f1c1989d2cc9cbe431992ea925c068060f31002bcc"
 		},
 		{
 			"type": "backend-template",
@@ -53,7 +53,7 @@
 			"type": "controller",
 			"src": "www/posts.php",
 			"dest": "www/posts.php",
-			"digest": "sha256:00672750189863809c81fee26b2490be5aa9eab361d0f7d35be80091a4f30f2d"
+			"digest": "sha256:4ee4d2d3b877baaaa6107459a2a1c93ed9a1282df5d8bb74ea9d5619a1b079ae"
 		},
 		{
 			"type": "template",
