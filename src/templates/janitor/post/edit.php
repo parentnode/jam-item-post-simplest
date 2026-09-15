@@ -4,7 +4,14 @@ global $model;
 global $itemtype;
 
 $item_id = $action[1];
-$item = items()->getItem(array("id" => $item_id, "extend" => array("tags" => true, "mediae" => true)));
+$item = items()->getItem([
+	"id" => $item_id, 
+	"extend" => [
+		"tags" => true, 
+		"mediae" => true
+	]
+]);
+
 ?>
 <div class="scene i:scene defaultEdit <?= $itemtype ?>Edit">
 	<h1>Edit Post</h1>
@@ -14,7 +21,9 @@ $item = items()->getItem(array("id" => $item_id, "extend" => array("tags" => tru
 
 	<?= $JML->previewUrl($item) ?>
 
-	<?= $JML->editSingleMedia($item, array("label" => "Main post image")) ?>
+	<?= $JML->editSingleMedia($item, [
+		"label" => "Main post image"
+	]) ?>
 
 
 	<div class="item i:defaultEdit">
