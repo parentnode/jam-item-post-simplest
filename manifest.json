@@ -23,7 +23,7 @@
 			"type": "backend-template",
 			"src": "templates/janitor/post/edit.php",
 			"dest": "templates/janitor/post/edit.php",
-			"digest": "sha256:68166c282ee6776a1076154797c5fa2a90ac322bd1d6ae0c3e00c3d579ace28e"
+			"digest": "sha256:1fa117d85112bb2ff15f9b1247d605c070a72ac047e3dd93318e5981831741f6"
 		},
 		{
 			"type": "backend-template",
@@ -59,25 +59,25 @@
 			"type": "template",
 			"src": "templates/posts/post.php",
 			"dest": "templates/posts/post.php",
-			"digest": "sha256:6bffb7aaa22ffb6ecc064b7351558f7d4bac6ac5709e44ba4e7af4ce72a36f24"
+			"digest": "sha256:f0c6e5e94ff75866fecfb5c601aaf0dc84d238ed4f1aa430cfac1df95d4e1b5b"
 		},
 		{
 			"type": "template",
 			"src": "templates/posts/posts.php",
 			"dest": "templates/posts/posts.php",
-			"digest": "sha256:3682792d5602a8feacf2a3bd5b8cdcd1a01b293c4d07bab727928acc00c62c57"
+			"digest": "sha256:41cd2d1c50cf84a138416f658fd034fe12d4e607e99dc06b22767f7a1d6d8e15"
 		},
 		{
 			"type": "template",
 			"src": "templates/posts/posts_tag.php",
 			"dest": "templates/posts/posts_tag.php",
-			"digest": "sha256:0da6f409a0dbd0085fdb5010a21b827ec907c4ac9482f641b6337b600cec0beb"
+			"digest": "sha256:a7a04ce8d14ddcddab4ecf230798cd1160ed6dc969796c1a3a1bfc1aed47ce0c"
 		},
 		{
 			"type": "template",
 			"src": "templates/posts/post_tag.php",
 			"dest": "templates/posts/post_tag.php",
-			"digest": "sha256:a348733712d7de4ac7b75c4b90740145d590af5594b66e6268bab492f9648d95"
+			"digest": "sha256:4b95ccfa7174e478a152890543c333d53ecbb8a8c7e7bb115aef2ac3e8c5d890"
 		},
 		{
 			"type": "data-model",
